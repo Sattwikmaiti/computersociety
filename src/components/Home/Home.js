@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <> 
       <div className="imageslider container">
-        KKKK
+        
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
