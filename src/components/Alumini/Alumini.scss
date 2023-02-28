@@ -13,7 +13,7 @@ $text-color: #3c3f64;
 
 body {
   font: normal 16px/1.5 'Titillium Web', sans-serif;
-  background: gainsboro;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,9,121,0.57484243697479) 35%, rgba(101,134,141,1) 87%);
   color: $text-color;
   overflow-x: hidden;
   padding-bottom: 50px;

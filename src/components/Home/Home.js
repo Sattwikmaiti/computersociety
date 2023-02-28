@@ -10,9 +10,27 @@ import p4 from "../images/p4.png";
 
 import p from "./1.png";
 const Home = () => {
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+  
   return (
     <> 
-      <div className="imageslider container">
+      <div className="imageslider container ">
         
         <div
           id="carouselExampleIndicators"
@@ -66,7 +84,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="motto ">
+      <div className=" reveal motto ">
         <h2>OUR MOTTO</h2>
         <p style={{ fontSize: "30px" }}>
           TOGETHER WE ARE THE CSS FAMILY. WE STAND ALL UNITED .
@@ -74,12 +92,12 @@ const Home = () => {
       </div>
 
 
-      <div className="body">
+      <div className=" reveal body">
         <h1 className="black-lives-matter"># COMPUTER SCIENCE SOCIETY </h1>
       </div>
 
-<div className="we">
- <h1 className="container " style={{padding:'20px'}}>ABOUT US</h1>
+<div className=" reveal we">
+ <h1 className="pica" style={{padding:'20px' }}>ABOUT US</h1>
 <body>
 	<section>
 		<div class="pica">
@@ -94,14 +112,9 @@ const Home = () => {
 				</div>
 				<ul class="sci">
 					<li>
-						<a href="">happy</a>
+						we are the bes of all time .we moteto die t pied
 					</li>
-					<li>
-						<a href="">birth</a>
-					</li>
-					<li>
-						<a href="">day</a>
-					</li>
+				
 				</ul>
 			</div>
 			<div class="card">
@@ -150,9 +163,9 @@ const Home = () => {
 	</section>
 </body>
 </div>
-     
 
-      <div className="services part">
+
+      <div className="reveal services part">
         <div
           className="lol"
           style={{ fontSize: "35px", fontWeight: "bolder", color: "white" }}
@@ -213,7 +226,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="hod container" style={{display:'flex',flexDirection:'row'}}>
+      <div className="reveal hod container" style={{display:'flex',flexDirection:'row'}}>
         <div className="picture" style={{padding:'30px'}}>
           <img
             src={p}
@@ -240,7 +253,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="MAP">
+      <div className="reveal MAP">
         <div
           className="g"
           style={{
