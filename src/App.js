@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Home from './components/Home/Home.js'
 
-function App() {
+import Alumini from './components/Alumini/Alumini.js'
+import Faculty from './components/Faculty/Faculty.js'
+import Members from './components/Members/Members.js'
+import Events from './components/Events/Events.js'
+
+import Navbar from './components/Navbar/Navbar.js'
+import Footer from './components/Footer/Footer.js'
+const Layout = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   );
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/Alumini",
+        element: <Alumini/>,
+      },
+      {
+        path: "/Faculty",
+        element: <Faculty />,
+      },
+      {
+        path: "/Members",
+        element: <Members />,
+      },
+      {
+        path: "/Events",
+        element: <Events />,
+      },
+    ],
+  },
+]);
+
+const App = () => {
+  return (
+  <div>
+    <RouterProvider router={router} />
+
+  </div>
+  )
 }
 
-export default App;
+export default App

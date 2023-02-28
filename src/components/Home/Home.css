@@ -1,0 +1,452 @@
+/* Check out the navigation section. It's the most important part. */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+* {
+	margin: 10;
+	padding: 0;
+}
+
+
+.pica {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.pica .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: grey;
+	margin: 20px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.pica .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.pica .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.pica .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.pica .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.pica .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.pica .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.pica .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.pica .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.pica .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.pica .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+   background-color: gainsboro;
+   color:blueviolet
+}
+
+
+
+
+.motto {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.services {
+
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+  height:300px
+}
+
+
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+ 
+  align-items: center;
+  text-align: center;
+}
+
+
+ 
+footer {
+  background: whitesmoke;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+.rows{
+  display:flex;
+  justify-content: space-between;
+}
+#vids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#vids a:first-of-type {
+  margin-bottom: 5px;
+}
+
+/**
+* Navigation
+*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all ease 0.6s;
+  z-index: 100;
+  width: 100%;
+  color:white
+}
+
+span {
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.part 
+{
+   background-color: cadetblue;
+   opacity: 0.8;
+  
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/**
+* Scrolling CSS
+*/
+nav.scroll {
+  padding: 20px;
+  background: white;
+  position: fixed;
+}
+
+nav.scroll span {
+  font-size: 20px;
+  color: black;
+}
+
+nav.scroll li {
+  color: black;
+}
+
+img.cara
+{
+  height:500px
+}
+img.prdts
+{
+
+  height:300px;
+  width:230px;
+  transform: rotateZ(30deg);
+   
+  transition: all ease 1s;
+  margin:5px white
+}
+img.prdts:hover
+{
+  height:330px;
+  width:250px;
+ 
+  transform: skewX(180deg);
+  box-shadow: 0px 0px 10px 10px rgba(152, 124, 183, 0.7);
+}
+
+
+.container
+{
+  width:800px
+}
+
+
+
+.featured {
+  background-color: antiquewhite;
+  
+}
+
+
+
+.r1
+{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  overflow-x:visible ;
+  
+   
+}
+.iw
+{
+  padding:30px;
+  width :500px
+   
+}
+
+.fp:hover{
+
+  box-shadow: 10px 10px 20px 20px rgba(84, 106, 170, 0.2);
+  
+}
+
+
+img.h {
+  position: absolute;
+  
+  width: 150px;
+  border-radius: 100%;
+  
+  padding :20px 10px 20px 10px
+
+}
+.services part{
+  left:200px
+}
+svg {
+
+  position: absolute;
+  
+  width: 174px;
+  height: 274px;
+  
+}
+path {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: dash 1s linear forwards;
+  
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.part 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+
+
+.footer {
+  
+  
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+   
+    .footer {
+      height: 300px;
+    }
+}
+
+
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
+html {
+  width: 100%;
+  height: 100%;
+}
+.body {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: #EEEEF5;
+}
+
+
+.black-lives-matter {
+  font-size: 8vw;
+  line-height: 8vw;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  background: url('./p3.png');
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation: zoomout 10s infinite ease  500ms forwards;
+  animation-iteration-count: infinte;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+
+
+
+
+
+
+.float-area{
+  height:100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-img{
+  transform: translateY(-10%);
+  animation: floater 3.5s infinite;
+  transition: ease 0.5s;
+  width: 80px;
+  height:80px;
+}
+
+
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}
+
+
+
+
