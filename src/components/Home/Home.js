@@ -11,8 +11,9 @@ import p4 from "../images/p4.png";
 import p from "./1.png";
 const Home = () => {
   return (
-    <>
+    <> 
       <div className="imageslider container">
+        KKKK
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
