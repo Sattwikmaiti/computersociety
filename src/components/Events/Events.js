@@ -36,12 +36,12 @@ const Events = () => {
     </div>
   </div>
   <div class="x left">
-    <div className="content"> <h2>1-02-2023</h2>
+    <div className="content"> <h2>1-03-2023</h2>
       <p>Invitation of induction for 2nd year</p>
       </div>
   </div>
     <div class="x right">
-    <div className="content"> <h2>2-02-2023</h2>
+    <div className="content"> <h2>2-03-2023</h2>
       <p>Induction date for second years </p></div>
   </div>
 </div>

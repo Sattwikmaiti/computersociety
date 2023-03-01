@@ -2,6 +2,7 @@ import React from 'react'
 import {useNavigate}  from 'react-router-dom'
 import {useState} from 'react'
 import './Navbar.css'
+import logo from "./logo.png"
 const Navbar = () => {
     const navigate=useNavigate();
     const [isSignUp, setSignUp] = useState("");
@@ -25,7 +26,7 @@ const Navbar = () => {
     <div>
   
        <nav className={`${isSignUp}`}>
-  <span onClick={()=>navigate('/Home')}>Logo</span>
+  <span onClick={()=>navigate('/Home')}><img src={logo} style={{height:'80px',width:'100px'}} /></span>
 
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>

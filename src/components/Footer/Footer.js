@@ -8,6 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import pp from "./CSS.mp4"
 import p1 from "../Home/p3.png"
 
 const Footer = () => {
@@ -59,8 +60,11 @@ emailjs.send( 'service_mw422g6', 'template_thnxeur', {
     <div className="connect"  style={{padding :'10px'}}>
              
              <center className="container all" style={{padding:'100px'}}>
+
                <h3 style={{padding:'10px',fontWeight:'bolder'}}>Connect Us</h3>
+               
              <div className="ic" >
+              
               <div className="p1">
              <a href="https://mui.com/material-ui/icons/"><GoogleIcon className="opl" sx={{ fontSize: 40 ,color:'white'}} /></a>
              </div>
@@ -87,6 +91,7 @@ emailjs.send( 'service_mw422g6', 'template_thnxeur', {
   <div className="pay">
 Want To Join CSS ? Fill it UP!!
   </div>
+ 
 
    <div className="bodyy">
     
