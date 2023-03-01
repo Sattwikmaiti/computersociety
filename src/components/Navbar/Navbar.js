@@ -25,7 +25,7 @@ const Navbar = () => {
     <div>
   
        <nav className={`${isSignUp}`}>
-  <span onClick={()=>navigate('/')}>Logo</span>
+  <span onClick={()=>navigate('/Login')}>Logo</span>
 
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
@@ -33,6 +33,7 @@ const Navbar = () => {
   <div className="1">
   <ul className="nav">
     <li onClick={()=>navigate('/Alumini')}>Alumini</li>
+    <li onClick={()=>navigate('/Home')}>Home</li>
     <li onClick={()=>navigate('/Members')}>Members</li>
     <li onClick={()=>navigate('/Events')}>Events</li>
     <li onClick={()=>navigate('/Faculty')}>Faculty</li>

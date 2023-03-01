@@ -6,7 +6,7 @@ const Faculty = () => {
   return (
     <div className="container">
      
-     <video poster ={p1}width="800" height="500" controls autoplay muted>
+     <video poster ={p1}width="800" height="500" controls autoPlay muted>
       <source src={p} type="video/mp4"/>
      </video>
     </div>

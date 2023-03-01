@@ -1,0 +1,9 @@
+
+.cent
+{
+    background-image:url("./web.gif");
+    background-position: center;
+    
+    background-repeat:no-repeat;
+    opacity:0.5
+}

@@ -1,0 +1,120 @@
+
+.ic
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between ;
+    background-color: aliceblue;
+    
+}
+.p1 .p2 .p3 .p4 .p5
+{
+  color: aliceblue;
+}
+.all 
+{backdrop-filter: blur(40px);
+   
+    
+
+}
+
+
+.forms
+{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pay
+{
+  background-color: beige;
+  opacity: 1;
+  padding: 10px;
+  color:black
+}
+.txt
+{
+  padding :10px;
+ 
+}
+
+input[type=text] {
+  padding:10px;
+  border:3px solid blueviolet;
+   width: 200px;
+   background-color: lightcyan;
+   color: black;
+}  input[type=email] {
+  padding:10px;
+  border:3px solid blueviolet;
+  width: 200px;
+  background-color: lightcyan;
+  color: black;
+
+} 
+
+textarea {
+  resize: none;
+  opacity: 1;
+  color: black;
+}
+
+
+ .btn-two{
+  width:250px
+ }
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+}
+.btn-two span {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+.cont
+{
+  background-image: url("../Home/p3.png");
+}
+.bodyy{
+  backdrop-filter: blur(80px);
+
+}

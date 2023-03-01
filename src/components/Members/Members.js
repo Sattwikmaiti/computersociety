@@ -1,79 +1,144 @@
 import React from 'react'
-import "./Members.css"
+import Avatar from "./Avatar.js"
 import p1 from "./p1.jpeg"
-import Dive from './Button';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import "./Members.css"
 const Members = () => {
+    const ArchismanDas={
+        name: "ArchismanDas",
+        motto:"Life is success",
+        url:"https://www.linkedin.com/in/archishman-das-4584b21a0/",
+        
+        
+    }
   return (
-  <>
-
-
-
-  <h1><center>Team CSS</center></h1>
-    <div className="container" style={{padding:'30px'}}>
-      <div className="box" style={{backgroundColor:'white'}}>
-      <div class="row" style={{padding:'10px'}}>
-      <div class="col-sm-4" style={{padding:'10px'}} ><img src={p1} value="Archisman" data-toggle="modal" data-target="#exampleModal"/> <div className="name">Archisman   <div>
-      <Dive value="Hello, world!" />
-    </div></div></div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /> <div className="name">Archisman</div> </div>
-
-</div>
-<div class="row" style={{padding:'10px'}}>
-
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-</div>
-<div class="row" style={{padding:'10px'}}>
+    <>
+   
+   
+    <div className="wrapper">
  
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div> </div>
-  <div class="col-sm-4" style={{padding:'10px'}}><img src={p1} /><div className="name">Archisman</div></div>
-</div>
+
+    <div className="container" style={{padding:'30px',}}>
+  <center><div className="year" style={{color:'black',fontWeight:'bolder',fontSize:'40px'}}>
+        Office Bearer
       </div>
-    </div>
-    <div className="container" style={{padding:'30px'}}>
-      <div className="box" style={{backgroundColor:'white'}}>
-      <div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
+      </center>
+  <div className="box" style={{padding:'10px'}}>
+     
+              <div className="row" style={{padding:'10px',}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal" />
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+              <div className="row" style={{padding:'10px'}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+              <div className="row" style={{padding:'10px'}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+  </div>
+
 </div>
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-</div>
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-</div>
+
+<div className="container" style={{padding:'30px',}}>
+<center><div className="year" style={{color:'black',fontWeight:'bolder',fontSize:'40px'}}>
+        Third Year Inductee
       </div>
-    </div>
-    <div className="container" style={{padding:'30px'}}>
-      <div className="box" style={{backgroundColor:'white'}}>
-      <div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
+      </center>
+  <div className="box" style={{padding:'10px'}}>
+     
+              <div className="row" style={{padding:'10px',}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal" />
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+              <div className="row" style={{padding:'10px'}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+              <div className="row" style={{padding:'10px'}}>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                   
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+                <div className="col">
+                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                </div>
+
+              </div>
+  </div>
+
 </div>
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
 </div>
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-</div>
-      </div>
-    </div>
-  </>
+</>
+
   )
 }
 

@@ -19,3 +19,7 @@
     background: black;
     width: 0%;
   }
+
+  .nav  :hover{
+    cursor: pointer;
+  }
