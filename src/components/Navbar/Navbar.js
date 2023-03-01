@@ -25,7 +25,7 @@ const Navbar = () => {
     <div>
   
        <nav className={`${isSignUp}`}>
-  <span onClick={()=>navigate('/Login')}>Logo</span>
+  <span onClick={()=>navigate('/Home')}>Logo</span>
 
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
