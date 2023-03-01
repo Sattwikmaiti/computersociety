@@ -11,6 +11,9 @@ import Events from './components/Events/Events.js'
 import Navbar from './components/Navbar/Navbar.js'
 import Footer from './components/Footer/Footer.js'
 import Login from './components/Login/Login.js'
+/**
+ * --openssl-legacy-provider build CI=true eslint --max-warnings=0 src
+ */
 const Layout = () => {
   return (
     <div className="app">

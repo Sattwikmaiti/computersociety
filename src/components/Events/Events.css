@@ -93,7 +93,7 @@
   /* The actual content */
   .content {
     padding: 20px 20px;
-    background-color: white;
+    background-color: #D3D3D3;
     position: relative;
     border-radius: 6px;
     filter: blur(0.5px);

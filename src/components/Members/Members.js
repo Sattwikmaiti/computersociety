@@ -1,6 +1,26 @@
 import React from 'react'
 import Avatar from "./Avatar.js"
 import p1 from "./p1.jpeg"
+import abhishek from "./abhishek.jfif"
+import aditya from "./aditya.jfif"
+import anurag from "./anurag.jfif"
+import archisman from "./archisman.jfif"
+import ayush from "./ayush.jfif"
+import gulshan from "./gulshan.jfif"
+import harshit from "./harshit.jfif"
+import himanshu from "./himanshu.jfif"
+import ishan from "./ishan.jfif"
+import ks from "./ks.jfif"
+import nilashis from "./nilashis.jfif"
+import raju from "./raju.jfif"
+import satya from "./satya.jfif"
+import satyam from "./satyam.jfif"
+import shakti from "./shakti.jfif"
+import shubham from "./shubham.jfif"
+import sindhu from "./sindhu.jfif"
+import suddhashil from "./suddhashil.jfif"
+
+
 import "./Members.css"
 const Members = () => {
     const ArchismanDas={
@@ -24,55 +44,42 @@ const Members = () => {
       </center>
   <div className="box" style={{padding:'10px'}}>
      
-              <div className="row" style={{padding:'10px',}}>
+              <div className="row att" style={{padding:'10px',}}>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={ks}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 
                    
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal" />
+                  <img src={ishan}  data-toggle="modal" data-target="#exampleModal" />
                   <Avatar {...ArchismanDas} />
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={abhishek}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
 
               </div>
-              <div className="row" style={{padding:'10px'}}>
+              <div className="row att" style={{padding:'10px'}}>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={ayush}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                    
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={gulshan}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={harshit}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
 
               </div>
-              <div className="row" style={{padding:'10px'}}>
-                <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
-                  <Avatar {...ArchismanDas} />
-                   
-                </div>
-                <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
-                  <Avatar {...ArchismanDas} />
-                </div>
-                <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
-                  <Avatar {...ArchismanDas} />
-                </div>
+              
 
-              </div>
+            
   </div>
 
 </div>
@@ -84,51 +91,69 @@ const Members = () => {
       </center>
   <div className="box" style={{padding:'10px'}}>
      
-              <div className="row" style={{padding:'10px',}}>
+              <div className="row att" style={{padding:'10px',}}>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={archisman}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 
                    
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal" />
+                  <img src={aditya}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                
+                   
+                </div>
+                <div className="col">
+                  <img src={anurag}  data-toggle="modal" data-target="#exampleModal" />
                   <Avatar {...ArchismanDas} />
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={raju}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
 
               </div>
-              <div className="row" style={{padding:'10px'}}>
+              <div className="row att" style={{padding:'10px'}}>
+              <div className="col">
+                  <img src={satya}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                
+                   
+                </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={satyam}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                    
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={shakti}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={shubham}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
 
               </div>
-              <div className="row" style={{padding:'10px'}}>
+              <div className="row att" style={{padding:'10px'}}>
+              <div className="col">
+                  <img src={sindhu}  data-toggle="modal" data-target="#exampleModal"/>
+                  <Avatar {...ArchismanDas} />
+                
+                   
+                </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={suddhashil}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                    
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={nilashis}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
                 <div className="col">
-                  <img src={p1}  data-toggle="modal" data-target="#exampleModal"/>
+                  <img src={himanshu}  data-toggle="modal" data-target="#exampleModal"/>
                   <Avatar {...ArchismanDas} />
                 </div>
 

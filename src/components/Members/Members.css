@@ -1,7 +1,9 @@
- .row img
+ .att img
 {
     clip-path: circle(50%);
-    transition: transform .7s
+    transition: transform .7s;
+    width:100px;
+    height:110px;
 }
 .row img:hover{
     transform: scale(1.2);
